@@ -3,3 +3,5 @@
 -- Add any additional keymaps here
 
 vim.keymap.set({ "i" }, "jj", "<cmd>noh<cr><esc>", { desc = "Escape and clear hlsearch" })
+
+vim.keymap.set("n", "<leader>xf", vim.diagnostic.open_float, { desc = "Pop-up error messages" })
