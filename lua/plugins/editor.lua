@@ -55,4 +55,14 @@ return {
       colorscheme = "github_dark",
     },
   },
+
+  -- lualine
+  {
+    "nvim-lualine/lualine.nvim",
+    opts = {
+      options = {
+        theme = "material",
+      },
+    },
+  },
 }
