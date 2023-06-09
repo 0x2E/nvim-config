@@ -20,12 +20,6 @@ return {
       open_mapping = [[<c-\>]],
     },
   },
-  {
-    "L3MON4D3/LuaSnip",
-    opts = {
-      history = false,
-    },
-  },
 
   -- file tree
   {
