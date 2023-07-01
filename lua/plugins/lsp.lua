@@ -12,6 +12,11 @@ return {
         "json-lsp",
         -- sh
         "shfmt",
+        -- python
+        "pyright",
+        "pylint",
+        "black",
+        "isort",
       },
     },
   },
@@ -45,6 +50,10 @@ return {
               "handlebars",
             },
           }),
+          -- python
+          nls.builtins.diagnostics.pylint,
+          nls.builtins.formatting.isort,
+          nls.builtins.formatting.black,
         },
       }
     end,
